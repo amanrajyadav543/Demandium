@@ -1,0 +1,108 @@
+name: demandium
+description: A new Flutter application.
+publish_to: 'none' #
+version: 1.0.7+9
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  get: ^4.6.6
+  intl: ^0.19.0
+  shared_preferences: ^2.2.3
+  connectivity_plus: ^5.0.2
+  firebase_core: ^2.25.4
+  firebase_messaging: ^14.7.16
+  path_provider: ^2.0.14
+  url_strategy: ^0.2.0
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.1
+  google_maps_flutter: ^2.7.0
+  geolocator: ^11.0.0
+  url_launcher: ^6.3.0
+  country_code_picker: ^3.0.0
+  phone_numbers_parser: ^8.1.3
+  webview_flutter: ^4.0.7
+  pin_code_fields: ^8.0.1
+  flutter_widget_from_html_core: ^0.8.5+3
+  flutter_typeahead: ^5.2.0
+  pointer_interceptor: ^0.10.1+1
+  shimmer_animation: ^2.1.0+1
+  carousel_slider: ^4.2.1
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^4.4.1+1
+  smooth_page_indicator: ^1.0.1
+  expandable: ^5.0.1
+  file_picker: ^5.2.6
+  timelines: ^0.1.0
+  flutter_html: ^3.0.0-alpha.6
+  flutter_local_notifications: ^17.0.0
+  universal_html: ^2.2.1
+  flutter_inappwebview: ^6.0.0
+  timeago: ^3.4.0
+  pdf: ^3.10.1
+  fwfh_selectable_text: ^0.8.3+1
+  diffutil_dart: ^3.0.0
+  flutter_downloader: ^1.11.6
+  permission_handler: ^11.3.0
+  fluttertoast: ^8.2.2
+  printing: ^5.11.0
+  audioplayers: ^6.0.0
+  dotted_border: ^2.1.0
+  expandable_bottom_sheet: ^1.1.1+1
+  share_plus: ^9.0.0
+  rect_getter: ^1.1.0
+  scroll_to_index: ^3.0.1
+  http_parser: ^4.0.2
+  http: ^0.13.5
+  path: ^1.8.2
+  syncfusion_flutter_datepicker: ^25.1.37
+  sign_in_with_apple: ^6.1.0
+  uuid: ^4.3.3
+  just_the_tooltip: ^0.0.12
+  label_marker: ^1.0.1
+  custom_info_window: ^1.0.1
+  custom_marker: ^1.0.0
+  firebase_crashlytics: ^3.4.8
+  photo_view: ^0.14.0
+  flutter_slidable: ^3.0.1
+  app_links: ^4.0.1
+  syncfusion_flutter_sliders: ^25.1.40
+  syncfusion_flutter_core: ^25.1.40
+  flutter_xlider: ^3.5.0
+  video_player: ^2.8.6
+  chewie: ^1.8.1
+
+dependency_overrides:
+  webview_flutter_android: 3.16.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/language/
+    - assets/map/
+    - assets/
+
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: assets/font/Ubuntu-Light.ttf
+          weight: 300
+        - asset: assets/font/Ubuntu-Regular.ttf
+          weight: 400
+        - asset: assets/font/Ubuntu-Medium.ttf
+          weight: 500
+        - asset: assets/font/Ubuntu-Bold.ttf
+          weight: 700
